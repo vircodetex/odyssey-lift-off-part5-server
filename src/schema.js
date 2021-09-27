@@ -69,7 +69,7 @@ const typeDefs = gql`
     content: String
     "The module's video url, for video-based modules"
     videoUrl: String
-    "The module's video duration, in seconds"
+    "The module's video duration, in seconds (s)"
     durationInSeconds: Int
   }
 `;
